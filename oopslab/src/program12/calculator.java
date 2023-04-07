@@ -1,4 +1,4 @@
-package package12;
+package program12;
 
 import java.awt.Color;                                                                                          
 import java.awt.event.*;

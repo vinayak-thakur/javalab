@@ -1,4 +1,4 @@
-package package10;
+package program10;
 import java.util.* ;
 
 public class Exc {

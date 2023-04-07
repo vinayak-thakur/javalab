@@ -1,4 +1,4 @@
-package package8;
+package program8;
 
 import java.util.* ;
 class Square implements Runnable {
