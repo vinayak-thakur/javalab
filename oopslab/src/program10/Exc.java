@@ -10,9 +10,9 @@ public static void main(String[] args) {
 	Scanner sc=new Scanner (System.in);
 	
 	int a,b ;
-	System.out.println("enetrr the value of a");
+	System.out.println("enter the value of a");
 	a=sc.nextInt();
-	System.out.println("enetrr the value of b");
+	System.out.println("enter the value of b");
 	b=sc.nextInt();
 try {
 		if(b==0) {
