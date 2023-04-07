@@ -1,4 +1,9 @@
+<<<<<<< HEAD:oopslab/src/program11/Fileh.java
 package program11;
+=======
+// File handling
+package package11;
+>>>>>>> 87f4a85eec71902f769ca3ee55638b29dbaf696e:oopslab/src/package11/Fileh.java
 
 import java.io.File;
 import java.util.Scanner;

@@ -1,4 +1,9 @@
+<<<<<<< HEAD:oopslab/src/program12/calculator.java
 package program12;
+=======
+// CALCULATOR using swings
+package package12;
+>>>>>>> 87f4a85eec71902f769ca3ee55638b29dbaf696e:oopslab/src/package12/calculator.java
 
 import java.awt.Color;                                                                                          
 import java.awt.event.*;
