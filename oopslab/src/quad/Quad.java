@@ -1,4 +1,4 @@
-package basics;
+package quad;
 import java.util.*;
 public class Quad {
 
