@@ -1,9 +1,8 @@
-<<<<<<< HEAD:oopslab/src/program8/Demothread.java
+
 package program8;
-=======
-//multithreading
-package package8;
->>>>>>> 87f4a85eec71902f769ca3ee55638b29dbaf696e:oopslab/src/package8/Demothread.java
+
+
+
 
 import java.util.* ;
 class Square implements Runnable {
