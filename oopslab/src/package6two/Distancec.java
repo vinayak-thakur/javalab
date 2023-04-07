@@ -1,38 +1,38 @@
 package package6two;
 import java.util.* ;
 public class Distancec {
-Scanner sc=new Scanner(System.in);
-public void MtoKM() {
-	float m,km;
-	
-	System.out.println("Enter the distance in meters");
-	m=sc.nextFloat();
-	km=m/1000;
-	System.out.println(m+"Meters in Kilometres is:"+km);
-}
-public void MILEStoKM() {
-	float m,km;
-	
-	System.out.println("Enter the distance in miles");
-	m=sc.nextFloat();
-	km=(float)(m*1.609344);
-	System.out.println(m+"Miles in Kilometres is:"+km);
-}
-public void KMtoM() {
-	float m,km;
-	
-	System.out.println("Enter the distance in kilometres");
-	km=sc.nextFloat();
-	m=km*1000;
-	System.out.println(km+"Kilometres in meters is:"+m);
-}
-public void KMtoMILES() {
-	float m,km;
-	
-	System.out.println("Enter the distance in kilometres");
-	km=sc.nextFloat();
-	m=(float)(km/1.609344);
-	System.out.println(m+"Miles in Kilometres is:"+km);
-}
-}
+	public void MtToKM() {
+		Scanner sc = new Scanner(System.in);
+		float M,K;
+		System.out.println("Enter Meter Details");
+		M = sc.nextFloat();
+		K = M/1000;
+		System.out.println(M + " Meter in KM is "+ K);
+	}
+	public void MiToKM() {
+		Scanner sc = new Scanner(System.in);
+		float Mi,K;
+		System.out.println("Enter Miles Details");
+		Mi = sc.nextFloat();
+		K = (float) (Mi*1.6092);
+		System.out.println(Mi + " Meter in KM is "+ K);
+	}
+	public void KMToMt() {
+		Scanner sc = new Scanner(System.in);
+		float M,K;
+		System.out.println("Enter KiloMeter Details");
+		K = sc.nextFloat();
+		M = K*1000;
+		System.out.println(K + " KiloMeter in Meter is "+ M);
+	}
+	public void KMToMi() {
+		Scanner sc = new Scanner(System.in);
+		float Mi,K;
+		System.out.println("Enter KiloMeter Details");
+		K = sc.nextFloat();
+		Mi = (float) (K/1.6092);
+		System.out.println(K + " KiloMeter in Miles is "+ Mi);
+	}
+		
 
+}
