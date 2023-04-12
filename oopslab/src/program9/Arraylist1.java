@@ -12,10 +12,9 @@ public class Arraylist1 {
 		String str, ch;
 		for (;;) {
 			System.out.println("Select the operation ");
-			System.out.print("1.Append - at the end\n2.Insert - add at particular index\n3.Search\n");
-			System.out
-					.print("4.List all String starting with given letter\n5.Size\n6.Remove an element from the list\n");
-			System.out.print("7.Sort the list\n8.Display the list\n9.Exit\n");
+			System.out.print(
+					"1.Append - at the end\n2.Insert - add at particular index\n3.Search\n4.List all String starting with given letter");
+
 			op = sc.nextInt();
 
 			switch (op) {
